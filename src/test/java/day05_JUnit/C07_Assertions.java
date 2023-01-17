@@ -70,6 +70,7 @@ public class C07_Assertions {
         // kucuk harfle yazilmadigini goruyoruz.(logonun degil.)
 
     }
+
 }
 
 

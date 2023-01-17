@@ -33,6 +33,7 @@ public class C05_ClassWork {
         //Checkbox1 ve checkbox2 elementlerini locate edin.
         WebElement checkbox1 = driver.findElement(By.xpath("(//*[@type='checkbox'])[1]"));
         WebElement checkbox2 = driver.findElement(By.xpath("(//*[@type='checkbox'])[2]"));
+
         //Checkbox1 seçili değilse onay kutusunu tıklayın
         Thread.sleep(3000);
         if (!checkbox1.isSelected()) { // Eğer seçili değilse
